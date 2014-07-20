@@ -9,4 +9,4 @@ Generates line charts by using dygraphs lib from dygraphs.com.
 other019
 
 to do list:
-*add new device search
+* add new device search
