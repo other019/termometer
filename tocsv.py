@@ -14,9 +14,9 @@ while True:
     
     tim= time.localtime()
     tim=time.mktime(tim)
-    tim= time.strftime("%d.%m %H:%M " )
+    tim= time.strftime("%y/%m/%d %H:%M " )
     with open('data.csv','a') as csvf:
-        csvw=csv.writer(csvf, delimiter=' ',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        csvw=csv.writer(csvf, delimiter=',',quotechar='', quoting=csv.QUOTE_MINIMAL)
         csvw.writerow([tem,tim])
     tem="{0:.3f}".format(tem)
     time.sleep(60)
