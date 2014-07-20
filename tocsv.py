@@ -14,11 +14,11 @@ while True:
     
     tim= time.localtime()
     tim=time.mktime(tim)
-    tim= time.strftime("%y/%m/%d %H:%M " )
+    tim= time.strftime("%Y/%m/%d %H:%M " )
     with open('data.csv','a') as csvf:
-        csvw=csv.writer(csvf, delimiter=',',quotechar='', quoting=csv.QUOTE_MINIMAL)
-        csvw.writerow([tem,tim])
+        csvw=csv.writer(csvf, delimiter=',',quotechar=' ', quoting=csv.QUOTE_MINIMAL)
+        csvw.writerow([tim, tem])
     tem="{0:.3f}".format(tem)
-    time.sleep(60)
+    time.sleep(600)
 
 
