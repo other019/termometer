@@ -13,9 +13,9 @@ other019
 Tips:
 
 While creating data.csv make sure if the first name is:
-'''
+```
 Date, Temperature
-'''
+```
 ---
 to do list:
 * add new device search
