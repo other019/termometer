@@ -1,3 +1,0 @@
-ec 01 4b 46 7f ff 04 10 cf : crc=cf YES
-ec 01 4b 46 7f ff 04 10 cf t=30750
-
