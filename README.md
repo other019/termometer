@@ -13,6 +13,7 @@ other019
 Tips:
 
 While creating data.csv make sure if the first name is:
+
 '''
 Date, Temperature
 '''
