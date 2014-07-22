@@ -14,9 +14,9 @@ Tips:
 
 While creating data.csv make sure if the first name is:
 
-'''
+```
 Date, Temperature
-'''
+```
 
 ---
 The chart is a bit jagged if measurment take place every 60 second, so few test:
